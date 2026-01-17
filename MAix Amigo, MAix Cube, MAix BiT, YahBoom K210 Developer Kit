@@ -1,0 +1,74 @@
+f01-16-2026
+sa01-17-2026
+
+Forum.SeeedStudio.com + GitHub.com: 
+
+[1.] Hi, there.
+
+[2.] Including details for persons working with acoustic imaging and sound source localization seen at:
+
+1.1. Routine
+Sound Source Localization
+https://wiki.sipeed.com/soft/maixpy/en/develop_kit_board/module_microphone.html
+
+SoundVisualizer by AirPocket Soundman
+https://github.com/airpocket-soundman/SoundVisualizer?tab=readme-ov-file
+
+[3.] Covered are these development boards and peripherals:
+
+Sipeed Microphone Array Board
+Sipeed SP-MOD MicArray Peripheral Module*****My MAix Cube overheated, so…
+Sipeed MAix Amigo #2970 Development Board
+Sipeed MAix BiT Development Board
+Sipeed MAix Cube Development Board
+YahBoom K210 Developer Kit
+
+[4.] For the aforementioned development boards, here are the pin assignments that are needed when using the code script in MAixPy IDE:
+
+Sipeed MAix Amigo #2970
+{MAixPy IDE:  Tools > Select Board > Sipeed Maixduino}
+i2s_IN_MIC_d0 = 12
+i2s_IN_MIC_d1 = 9
+i2s_IN_MIC_d2 = 31
+i2s_IN_MIC_d3 = 7
+i2s_IN_MIC_WS = 19
+i2s_IN_MIC_BCK/CK/SCLK = 17
+GPIOHS28_LED_CK = 24
+GPIOHS27_LED_DA = 27
+
+Sipeed MAix BiT
+i2s_IN_MIC_d0 = 23
+i2s_IN_MIC_d1 = 22
+i2s_IN_MIC_d2 = 21
+i2s_IN_MIC_d3 = 20
+i2s_IN_MIC_WS = 19
+i2s_IN_MIC_BCK/CK/SCLK = 18
+GPIOHS28_LED_CK = 17
+GPIOHS27_LED_DA = 15
+
+Sipeed MAix Cube
+{MAixPy IDE:  Tools > Select Board > Sipeed Maixduino}
+i2s_IN_MIC_d0 = 20
+i2s_IN_MIC_d1 = 21
+i2s_IN_MIC_d2 = 15
+i2s_IN_MIC_d3 = 8
+i2s_IN_MIC_WS = 7
+i2s_IN_MIC_BCK/CK/SCLK = 6
+GPIOHS28_LED_CK = 24
+GPIOHS27_LED_DA = 25
+
+YahBoom K210 Developer Kit
+i2s_IN_MIC_d0 = 23
+i2s_IN_MIC_d1 = 22
+i2s_IN_MIC_d2 = 21
+i2s_IN_MIC_d3 = 20
+i2s_IN_MIC_WS = 19
+i2s_IN_MIC_BCK/CK/SCLK = 18
+GPIOHS28_LED_CK = 25
+GPIOHS27_LED_DA = 24
+
+[5.] ‘Hope you’re well.
+
+[6.] Toodles!
+
+NameStream 🦋
